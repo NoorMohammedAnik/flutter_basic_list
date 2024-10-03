@@ -13,8 +13,8 @@ class HomePage extends StatelessWidget {
       body: ListView(
         children: <Widget>[
           ListTile(
-            leading: Icon(Icons.map),
-            title: Text('Map'),
+            trailing: Icon(Icons.map),
+            title: Text('Map',textAlign: TextAlign.center,),
             onTap:() {
 
               Fluttertoast.showToast(
